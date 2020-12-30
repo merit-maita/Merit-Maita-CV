@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Merit Maita CV</title>
+
+    <script>
+            var hidden = false;
+            function activate() {
+            if(!hidden){
+                document.getElementById('actv').style.display ="none";
+                document.getElementById('show').innerHTML = 'show activities';
+            }
+            else{
+                document.getElementById('actv').style.display ="block";
+                document.getElementById('show').innerHTML = 'hide activities';
+            }
+            hidden = !hidden;
+        }
+
+            document.addEventListener('DOMContentLoaded', function(){
+            document.getElementById('show').addEventListener('click', activate);
+        }, false);
+    </script>
+</head>
+
+<body style="background-color: grey">
+<div class="container">
+    <div class="row gutters-sm">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h2 style="color:green">About Me</h2>
+                    <h6>Recently graduated from Hadassah College and Project Rails in which
+                        I've worked on developing both my soft and technical skills. I'm eager to
+                        prove my abilities, keep learning and make a difference.</h6>
+                </div>
+            </div>
+            <br>
+            <div  class="card">
+                <div id ="actv" class="card-body">
+                <h2 style="color:green">Activities</h2>
+                <h6>
+                    <ul >
+                        <li ><strong>MATI Hackathon</strong> <small>2020</small><br>
+                            Developing a backend/ frontend application for local businesses
+                        </li><br>
+                        <li ><strong>Digital start-up hackathon</strong> <small>2018</small><br>
+                            Creating new technological ideas for local businesses
+                        </li><br>
+                        <li ><strong>Model UN participant</strong> <small>2016-2017</small><br>
+                            Diving into diplomacy, international relations, and the UN's policies in general.
+                        </li><br>
+                        <li ><strong>Perach's volunteer</strong> <small>2017-2018</small><br>
+                            Leading a group of high school students and practicing extracurricular activities
+                        </li>
+                    </ul>
+                </h6>
+                </div>
+                <button id="show" type="button" class="btn btn-primary">hide</button>
+            </div><br>
+            <div class="card">
+                <div class="card-body">
+                <h2 style="color:green"> Contacts</h2>
+                <h6> Phone Number: 0586525666 <br>
+                    Email: meretmaayta@gmail.com <br>
+                    LinkedIn: <a href="https://www.linkedin.com/in/merit-maita/" target="_blank">Merit Maita</a></h6>
+                </div>
+                </div>
+        </div>
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body">
+                    <h1 style="text-align: center; font-size:5vw;">MERIT MAITA</h1>
+
+                    <h1 style="color:green;">Experience</h1>
+                    <ul>
+                        <li><strong>SOFTWARE DEVELOPER INTERN</strong>
+                            <h6 style="color:green">Project Rails, JLM | 2020 - Present</h6>
+                            <p>Working in a team to develop a platform for stocks market, using Python and Django for the backend,
+                                JavaScript, HTML and CSS for the frontend, integrated with SQlite DB.</p>
+                        </li>
+                        <li><strong>HOMEWOR'S GRADER</strong>
+                            <h6 style="color:green">Hadassah College, JLM | 2017 - Present</h6>
+                            <p>Grading weekly calculus and algorithms homework.</p>
+                        </li>
+                        <li><strong>ADMINISTRATION AND CUSTOMER SERVICE</strong>
+                            <h6 style="color:green">Sha'are Zedek Hospital, JLM | 2017 - Present</h6>
+                        </li>
+                        <li><strong>PROGRAMMING AND MATH TUTOR</strong>
+                            <h6 style="color:green">Hadassah College, JLM | 2017 - 2019</h6>
+                            <p>Tutoring 2 students a week, Programming and Mathematics’ subjects. Summarizing the lecture’s topic
+                                of the week and helping with the homework
+                            </p>
+                        </li>
+
+                    </ul>
+                    <h1 style="color:green;">Education</h1><ul>
+                   <li> <strong>B.SC IN COMPUTER SCIENCE (GPA 90)</strong>
+                    <h6 style="color:green">Hadassah College, JLM | 2016 - 2020</h6>
+                    <p><ul>
+                    <li>Developed an android app for arranging daily tasks, as graduation project.</li>
+                    <li>Developed a Github's users search engine, using Java and Express.Js for the backend, JS and HTML for the frontend .</li>
+                    <li>Developed games with C++ in Visual Studio enviroment, using OOP.</li>
+                    </ul></p> </li>
+
+                   <li> <strong>INTERNATIONAL SUMMER UNIVERSITY</strong>
+                    <h6 style="color:green">Hochschule Fulda , Fulda (Germany) | 2019</h6>
+                    <p>Time Management Seminar and basic German language course</p>
+                   </li>
+
+                    <li><strong>PRE ACADEMIC PREPARATORY</strong>
+                    <h6 style="color:green">Hadassah College, JLM | 2015 - 2016</h6></li>
+                    </ul>
+                    <h1 style="color:green;">Skills</h1>
+                    <small><ul>
+                    <li>Strong: Python | Java| C++ | Django| SQlite| OOP</li>
+                    <li>Basic: C | Git | JavaScript | CSS | BootStrap | HTML</li>
+                    <li>Ability to work under pressure and multi-task</li>
+                    <li>Teamwork, leadership and great communication skiils</li>
+                    <li>Multi-linguistic: Arabic (first) | English and Hebrew (fluent)</li>
+                </ul></small>
+
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
